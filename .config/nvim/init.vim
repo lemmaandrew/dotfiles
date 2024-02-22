@@ -5,6 +5,9 @@ Plug 'preservim/nerdtree'
 " coc.nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" C/C++ formatting
+Plug 'rhysd/vim-clang-format'
+
 " nvim-autopairs
 Plug 'windwp/nvim-autopairs'
 
@@ -22,6 +25,12 @@ colorscheme onedark
 hi Normal ctermbg=None guibg=None
 
 set relativenumber
+
+" Formatting
+" Python formatting
+autocmd FileType python nnoremap <buffer> <Leader>f :!black %<CR>
+" Rust formatting
+autocmd FileType rust nnoremap <buffer> <Leader>f :RustFmt<CR>
 
 " Tab handling
 set expandtab
