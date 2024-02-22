@@ -44,6 +44,12 @@ lua << EOF
 require("nvim-autopairs").setup {}
 EOF
 
+" Fixing <CR> completion with autopairs
+inoremap <silent><expr> <cr> coc#pum#visible() ? coc#pum#confirm() :
+  \ "\<C-g>u\<c-r>=v:lua.require'nvim-autopairs'.autopairs_cr()\<CR>"
+lua << EOF
+require("nvim-autopairs").setup {}
+EOF
 
 " coc.nvim config
 
