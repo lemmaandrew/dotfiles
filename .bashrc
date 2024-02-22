@@ -11,3 +11,4 @@ PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
 
 export PATH=$PATH:/home/puffin/.local/bin/
+export EDITOR=nvim
