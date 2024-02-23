@@ -3,7 +3,10 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 
 " coc.nvim
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+
+" Outdated af Rust plugin that I need for :RustFmt to work
+Plug 'rust-lang/rust.vim'
 
 " C/C++ formatting
 Plug 'rhysd/vim-clang-format'
@@ -12,16 +15,18 @@ Plug 'rhysd/vim-clang-format'
 Plug 'windwp/nvim-autopairs'
 
 " Colorschemes
-Plug 'dracula/vim', {'as': 'dracula'}
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'navarasu/onedark.nvim'
+Plug 'nonetallt/vim-neon-dark', { 'tag': '2.1.0' }
 call plug#end()
 
 " Colorscheme + transparent background
+set termguicolors
 let g:onedark_config = {
     \ 'style': 'darker',
     \ 'transparent': v:true,
 \}
-colorscheme onedark
+colorscheme cyberpunk-neon
 hi Normal ctermbg=None guibg=None
 
 set relativenumber
