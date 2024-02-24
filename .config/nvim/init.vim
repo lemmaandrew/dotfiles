@@ -36,6 +36,9 @@ set relativenumber
 autocmd FileType python nnoremap <buffer> <Leader>f :!black %<CR>
 " Rust formatting
 autocmd FileType rust nnoremap <buffer> <Leader>f :RustFmt<CR>
+" C/C++ formatting
+autocmd FileType c nnoremap <buffer> <Leader>f :ClangFormat<CR>
+autocmd FileType cpp nnoremap <buffer> <Leader>f :ClangFormat<CR>
 
 " Tab handling
 set expandtab
