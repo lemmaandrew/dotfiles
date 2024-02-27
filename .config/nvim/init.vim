@@ -29,7 +29,18 @@ let g:onedark_config = {
 colorscheme cyberpunk-neon
 hi Normal ctermbg=None guibg=None
 
+" Relative line numbers
 set relativenumber
+
+" Remove matching braces
+nnoremap <Leader>dp %"_x``"_x
+
+" Decrement tab
+nnoremap <S-Tab> <<
+inoremap <S-Tab> <C-o><<
+
+" Delete word ahead
+inoremap <C-d> <C-O>"_dw
 
 " Formatting
 " Python formatting
