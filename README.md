@@ -1,2 +1,2 @@
 # dotfiles
-My dotfiles on my Arch USB stick
+My dotfiles on my Arch machine
