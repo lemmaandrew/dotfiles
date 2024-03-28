@@ -30,6 +30,7 @@ colorscheme cyberpunk-neon
 hi Normal ctermbg=None guibg=None
 
 " Relative line numbers
+set number
 set relativenumber
 
 " Remove matching braces
