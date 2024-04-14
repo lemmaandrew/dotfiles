@@ -18,6 +18,9 @@ Plug 'windwp/nvim-autopairs'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'navarasu/onedark.nvim'
 Plug 'nonetallt/vim-neon-dark', { 'tag': '2.1.0' }
+
+" Airline
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " Colorscheme + transparent background
