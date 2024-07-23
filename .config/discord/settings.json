@@ -1,0 +1,14 @@
+{
+  "chromiumSwitches": {},
+  "MINIMIZE_TO_TRAY": false,
+  "OPEN_ON_STARTUP": false,
+  "IS_MAXIMIZED": false,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 690,
+    "y": 22,
+    "width": 654,
+    "height": 724
+  },
+  "SKIP_HOST_UPDATE": true
+}
