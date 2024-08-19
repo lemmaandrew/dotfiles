@@ -197,6 +197,9 @@ input type:touchpad {
     tap enabled
 }
 
+# mouse warping to center of the container
+mouse_warping container
+
 # border behavior
 default_border pixel
 client.focused "#FB48C4" "FB48C4" "#FFFFFF"
@@ -218,3 +221,6 @@ bindsym xf86audiomicmute exec swayosd-client --input-volume mute
 
 # launcher
 bindsym --release Super_L exec "rofi -modi drun,run -show drun"
+
+# screenshots
+bindsym print exec ~/.config/hypr/scripts/capture-screen.sh
