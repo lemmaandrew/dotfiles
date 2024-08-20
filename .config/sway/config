@@ -207,6 +207,9 @@ client.focused "#FB48C4" "FB48C4" "#FFFFFF"
 # background
 output * bg '/home/puffin/Pictures/wallpapers/tarbo \(exxxpiation\).webp' fill
 
+# lock on lid close
+bindswitch --reload --locked lid:on exec swaylock -f
+
 # custom keybinds
 
 exec swayosd-server
