@@ -21,3 +21,8 @@ export PATH=$BUN_INSTALL/bin:$PATH
 
 # grim screenshots
 export GRIM_DEFAULT_DIR="$HOME/Pictures/Screenshots"
+
+export COQTOP="/usr/lib/coq/theories/"
+
+# ruby
+export PATH=/home/puffin/.local/share/gem/ruby/3.0.0/bin:$PATH
