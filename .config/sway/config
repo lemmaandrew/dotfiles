@@ -195,6 +195,7 @@ bindsym $mod+r mode "resize"
 input type:touchpad {
     natural_scroll enabled
     tap enabled
+    dwt disabled
 }
 
 # mouse warping to center of the container
