@@ -203,7 +203,7 @@ mouse_warping container
 
 # border behavior
 default_border pixel
-client.focused "#FB48C4" "FB48C4" "#FFFFFF"
+client.focused "#FB48C4" "#FB48C4" "#FFFFFF" "#FB48C4"
 
 # background
 output * bg '/home/puffin/Pictures/wallpapers/tarbo \(exxxpiation\).webp' fill
