@@ -29,6 +29,9 @@ Plug 'nonetallt/vim-neon-dark', { 'tag': '2.1.0' }
 Plug 'vim-airline/vim-airline'
 call plug#end()
 
+" Temp fix for a bug in Airline with Kitty
+let g:airline#extensions#whitespace#symbol = '!'
+
 " Colorscheme + transparent background
 set termguicolors
 let g:onedark_config = {
