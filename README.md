@@ -10,7 +10,7 @@ Featured in screenshot:
 * Bottom left: neovim opened to my sway config
 * Right: hyfetch with trans flag :D
 * Font (because it's kind of hard to read in the hyfetch): Monofur
-* [Background](https://safebooru.org/index.php?page=post&s=view&id=3092501): by (as far as I know) tarbo (exxxpiation)
+* Backgrounds have artists/easily searchable names to get sources
 
 Things that you will need otherwise the config will either break or be less than functional:
 * SwayOSD for volume/brightness controls
